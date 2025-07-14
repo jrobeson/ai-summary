@@ -1,5 +1,5 @@
 import express from 'express';
-import summaryRouter from '../routes/summarize.js';
+import summaryRouter from './routes/summarize.js';
 
 const app = express();
 const PORT = process.env.port || 3000;
